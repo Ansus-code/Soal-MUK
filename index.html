@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Soal LSP Klaster Pemrograman Dasar</title>
+  </head>
+  <body>
+    <h1>Selamat Datang di acara Geetring</h1>
+    <script>
+              var jam = true;
+              while(jam) {
+              var jam = eval(prompt("Masukkan Jam Sekarang  : ", ""));
+              if (jam >= 6 && jam <= 9) {
+                  alert ("Serapan sudah tersedia");
+        continue ;
+         }
+         if (jam >= 11 && jam <= 13) {
+             alert("Waktunya makan siang");
+         }
+         else if (jam >= 17 && jam <= 22 ) {
+            alert("Waktunya makan malam");
+         }
+                  else { alert("Maaf waktunya anda sedang menunggu")}
+         var jawaban =  (prompt ("Apakah Anda ingin memasukkan jam lagi [Y/N] :", "" ));
+         if jawaban = "No" {
+             break ;
+         }
+      }
+    </script>
+  </body>
+</html>
